@@ -1,3 +1,11 @@
+coturn (4.5.2-4) unstable; urgency=medium
+
+  * [59867a7] Add fixed-assignment-to-freed-memory-event.patch which fixes a
+    potential segfault.
+  * [f7e0ad0] Add No-FIPS-140-mode.patch which fixes build against OpenSSL 3.0.
+
+ -- Daniel Teichmann <daniel.teichmann@das-netzwerkteam.de>  Thu, 28 Jul 2022 13:28:12 +0200
+
 coturn (4.5.2-3) unstable; urgency=medium
 
   [ Ferenc Wágner ]
