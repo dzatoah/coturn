@@ -1,3 +1,4 @@
 Set-logging-to-syslog.patch
 Fix-undefinded-OPENSSL_VERSION_1_1_1.patch
+No-FIPS-140-mode.patch
 fixed-assignment-to-freed-memory-event.patch
