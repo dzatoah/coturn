@@ -1,0 +1,13 @@
+Fixes https://github.com/coturn/coturn/pull/895/
+--- a/src/apps/relay/ns_ioalib_engine_impl.c
++++ b/src/apps/relay/ns_ioalib_engine_impl.c
+@@ -2945,8 +2945,8 @@
+ 			{
+ 				tcp_connection *tc = s->sub_session;
+ 				if (tc) {
+-					delete_tcp_connection(tc);
+ 					s->sub_session = NULL;
++					delete_tcp_connection(tc);
+ 				}
+ 			}
+ 				break;
